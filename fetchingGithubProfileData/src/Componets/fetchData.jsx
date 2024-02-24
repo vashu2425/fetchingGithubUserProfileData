@@ -8,12 +8,7 @@ const FetchData = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const token = "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";
-        const response = await fetch("https://api.github.com/users", {
-          headers: {
-            Authorization: `token ${token}`,
-          },
-        });
+        const response = await fetch("https://api.github.com/users");
         const data = await response.json();
         if (!response.ok) {
           throw new Error(data.message || "Failed to fetch data");
