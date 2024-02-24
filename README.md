@@ -9,7 +9,7 @@ This React component fetches data of GitHub users from the GitHub API and displa
 ```bash
 git clone https://github.com/your-username/github-user-data-fetcher.git
 
-2. Navigate to the project directory
+<Strong> Navigate to the project directory</Strong> 
 cd github-user-data-fetcher
 
 3. Install dependencies
